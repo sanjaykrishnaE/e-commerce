@@ -1,7 +1,26 @@
+@import url(https://db.onlinewebfonts.com/c/740a2bcf13582a2a0ed99e15dffe7b9f?family=Neue+Haas+Unica+W06+Thin);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 a.active hr{
    display: block;
+}
+.Nue-text {
+   font-family: "Neue Haas Unica W06 Thin";
+}
+
+::-webkit-scrollbar {
+   display: none;
+}
+
+
+@media (max-width : 640px) {
+   a.active{
+       background-color: black;
+       color: white;
+
+
+   }
 }
